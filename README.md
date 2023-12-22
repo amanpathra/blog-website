@@ -24,12 +24,12 @@ cd blog-website
 4. Explore other pages such as Contact, Search, and individual Blog pages by navigating to their respective HTML files.
 
 ## Project Structure
-index.html: Home page of the blog website.\
-contact.html: Contact page with information on how to get in touch.\
-search.html: Search page to find specific blog posts.\
-blogpost.html: Individual blog post page with detailed content.\
-CSS/: Directory containing stylesheets for styling the website.\
-JS/: Directory containing JavaScript files for dynamic functionality.
+**index.html**: Home page of the blog website.\
+**contact.html**: Contact page with information on how to get in touch.\
+**search.html**: Search page to find specific blog posts.\
+**blogpost.html**: Individual blog post page with detailed content.\
+**CSS/**: Directory containing stylesheets for styling the website.\
+**JS/**: Directory containing JavaScript files for dynamic functionality.
 
 ## Contributing
 Feel free to contribute to the project by submitting issues or pull requests. Your feedback and contributions are highly appreciated!
