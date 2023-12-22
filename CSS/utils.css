@@ -1,0 +1,55 @@
+/* IMPORTS */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Roboto:wght@400;500&family=Ubuntu&display=swap');
+
+/* RESET */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* color: white !important; */
+}
+
+/* VARIABLES */
+:root{
+    --font1: 'Roboto', sans-serif;
+    --font2: 'Montserrat', sans-serif;
+    --font3: 'Ubuntu', sans-serif;
+}
+
+/* body{
+    background-color: rgb(34, 34, 34);
+} */
+
+.max-width-1{
+    max-width: 80vw;
+}
+
+.max-width-2{
+    max-width: 70vw;
+}
+
+.max-width-3{
+    max-width: 60vw;
+}
+
+.m-auto{
+    margin: auto;
+}
+
+.btn{
+    padding: 8px 15px 8px 12px;
+    border: none;
+    outline: none;
+    color: white;
+    background-color: rgb(71, 71, 71);
+    border-radius: 0px 50px 50px 0px;
+    cursor: pointer;
+}
+
+.form-input{
+    padding: 8px 15px;
+    border: none;
+    outline: none;
+    border: 1.5px solid rgb(71, 71, 71);
+    border-radius: 50px 0px 0px 50px;
+}

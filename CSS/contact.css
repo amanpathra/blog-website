@@ -1,0 +1,58 @@
+.contactContent{
+    /* background-color: rgb(211, 211, 255); */
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    min-height: 85.5vh;
+}
+
+.contactContent h2{
+    font-family: var(--font1);
+    font-weight: 500 !important;
+}
+
+.formBox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0;
+}
+
+/* .formBox::before{
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: calc(100% - 60px);
+    background: url(../imgs/article3.avif) center center/cover no-repeat;
+    opacity: 30%;
+} */
+
+.formBox input{
+    width: 50%;
+    padding: 10px 15px;
+    border: none;
+    outline: none;
+    border: 2px solid rgb(93, 93, 93);
+    border-radius: 99px;
+    margin: 7px 0px;
+    /* font-family: monospace; */
+}
+
+.formBox textarea{
+    width: 50%;
+    padding: 10px 15px;
+    border: none;
+    outline: none;
+    border: 2px solid rgb(96, 96, 96);
+    border-radius: 20px;
+    margin: 7px 0px;
+    resize: none;
+    font-family: var(--font1);
+}
+
+.formBox .btn{
+    padding: 12px 15px;
+    margin-top: 20px;
+    width: 50%;
+    border-radius: 99px !important;
+}
